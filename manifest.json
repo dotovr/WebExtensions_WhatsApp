@@ -1,0 +1,18 @@
+{
+  "description": "Web Native WhatsApp fast running",
+  "manifest_version": 2,
+  "name": "Native WhatsApp",
+  "version": "1.0",
+  "homepage": "https://blog.endeto.com/",
+  "icons": {
+    "48": "icons/whatsapp.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/whatsapp.png"
+  }
+}
